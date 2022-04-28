@@ -1,0 +1,65 @@
+﻿
+body {
+
+    background-image: url("High_resolution_wallpaper_background_ID_77700372379-1200x900.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#imagefp {
+    width: 420px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+    margin-top: 60px;
+}
+.entrycontent {
+    height:100%;
+}
+#write{
+    color:white;
+    text-align:center;
+    margin-top:5%;
+    font-weight:200;
+    
+}
+#paragraph {
+    color:white;
+    font-weight:200;
+}
+#javacard {
+
+    border-radius: 30px;
+    padding: 5px;
+}
+#java {
+    border-radius: 100px;
+    
+}
+#c {
+    border-radius: 100px;
+    opacity: 100;
+
+}
+
+.special-card {
+    /* create a custom class so you 
+   do not run into specificity issues 
+   against bootstraps styles
+   which tends to work better than using !important 
+   (future you will thank you later)*/
+
+    background-color: rgba(245, 245, 245, 1);
+    opacity: .4;
+    height:50px;
+    width:50px;
+}
+#html {
+    border-radius: 80px;
+
+}
+#css {
+    border-radius: 80px;
+
+}
